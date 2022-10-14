@@ -1,4 +1,4 @@
-# plugin-dotnet-4.6.1-starter
+# InstaPunchout Plugin .NET 4.6.1 Starter
 This is a starter kit to developer InstaPunchout Plugin for .NET 4.6.1
 
 ## Get Started
