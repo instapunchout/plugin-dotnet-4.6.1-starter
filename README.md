@@ -11,6 +11,7 @@ The files that include all the code are the 2 controllers.
 
 ## Apis to be implemened on eCommerce Side
 - Index: this will be opened by the user comming from the procurement system and will log them in automatically.
+The index api can be tested with: http://localhost:60771/punchout?id=3J3q6HVhNx66BBZ9mmXcZ1
 - Cart: this will be called when the user clicks on "Punchout" button, will load the cart, sends it to instapunchout to be converted to the proper format (cxml), then returned to the procurement system.
 - Script: this will be loaded by all pages, and will contain the punchout driver logic when in a punchout session.
 None of the apis require authentication and they should be open, authentication for login is done on instapunchout side.
